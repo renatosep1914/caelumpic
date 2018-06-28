@@ -124,5 +124,10 @@
       }
     }
   },
-  "defaultProject": "caelumpics"
+  "defaultProject": "caelumpics",
+  "schematics": {
+    "@schematics/angular:component": {
+      "inlineStyle": true
+    }
+  }
 }

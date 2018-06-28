@@ -1,0 +1,13 @@
+<div class="card">
+    <!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
+    <app-foto [url]="foto.url" [titulo]="foto.titulo"></app-foto>  
+    
+    <div class="card-body">
+      <h5 class="card-title">{{foto.titulo}}</h5>
+      <p class="card-text">
+        <!-- tudo que estiver no app card será exibido aqui -->
+        <ng-content></ng-content>
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
